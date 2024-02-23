@@ -1,0 +1,5 @@
+def dva():
+    bun = 8**2020+4*2017+26-1
+    ces = bin(bun)[2:]
+    return ces.count('1')
+print(dva())
