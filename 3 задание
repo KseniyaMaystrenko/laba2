@@ -1,10 +1,10 @@
  def f(x):
     k=2
-    deliteli=set()
+    deliteli=set()     // создание пустого множества `deliteli` для хранения делителей числа.
     while k*k<=x:
-        if x%k==0:
+        if x%k==0:          //проверка условия: если x делится на k без остатка.
             deliteli.add(k)
-            if x//k<x:
+            if x//k<x:              // проверка условия: если делитель x на k меньше x.
                 deliteli.add(x//k)
         k=k+1
     return sorted(deliteli)
