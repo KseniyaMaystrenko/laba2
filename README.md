@@ -16,7 +16,8 @@
 
 Количество возможных комбинаций - 8000
 
-!![image](https://github.com/KseniyaMaystrenko/laba2/assets/152999073/5b97c9d5-e84b-4484-90e8-f5014c59fbfe)
+!![image](https://github.com/KseniyaMaystrenko/laba2/assets/152999073/6cc8b728-93c5-4fe1-91b0-6abdade2838d)
+
 
 
 
