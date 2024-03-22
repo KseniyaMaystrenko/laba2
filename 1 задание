@@ -1,19 +1,12 @@
-def Andrey(s):
-    n = 0
-    k = 0
-    for x1 in 'АНДРЕ':
-        for x2 in 'АНДРЕЙ':
-            for x3 in 'АНДРЕЙ':
-                for x4 in 'АНДРЕЙ':
-                    for x5 in 'АНДРЕЙ':
-                        for x6 in 'АНДРЕ':
-                            n += 1
-                            x = x1 + x2 + x3 + x4 + x5 + x6
-                            b = x.count('ЙЕ')
-                            b1 = x.count('ЕЙ')
-                            b2 = x.count('Й')
-                            if b == 0 and b1 == 0 and b2 == 1:
-                                k += 1
-    return(k)
+from itertools import product
 
-print('Количество возможных комбинаций -',Andrey('АНДРЕЙ'))
+def count_codes():
+    letters = ['А', 'Н', 'Д', 'Р', 'Е', 'Й']
+    count = 0
+    for code in product(letters, repeat=6):
+        if code.count('Й') <= 1 and code[0] != 'Й' and code[-1] != 'Й' and 'ЕЙ' not in ''.join(code) and 'ЙЕ' not in ''.join(code):
+            count += 1
+    return count
+
+total_codes = count_codes()
+print(f"Количество различных кодов, которые может составить Андрей: {total_codes}")
