@@ -39,6 +39,9 @@
 
 11
 
+![image](https://github.com/KseniyaMaystrenko/laba2/assets/152999073/cf6616ef-4abc-4a72-8b19-b065e5acba0d)
+
+
 ## задание 3
 
       условие
