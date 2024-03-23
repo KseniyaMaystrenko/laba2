@@ -92,3 +92,9 @@
       ответ:
 
 ![image](https://github.com/KseniyaMaystrenko/laba2/assets/152999073/b0e6868a-c2cc-4fe8-9bf9-dfe293248879)
+
+
+используемые источники: 
+
+https://youtu.be/xIEVAm7BakE?feature=shared
+https://youtu.be/R8oCK4W8px4?feature=shared
